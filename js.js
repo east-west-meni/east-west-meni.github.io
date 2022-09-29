@@ -1,7 +1,7 @@
 let zastor = document.getElementById("poklopac");
 setTimeout(()=>{
     zastor.style.transform ="translateY(-3000px)"}
-    ,1000)
+    ,1500)
     
 
 let dropdown = document.getElementById("dropdown")
