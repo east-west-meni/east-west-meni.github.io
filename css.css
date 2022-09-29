@@ -111,3 +111,58 @@ h2 {
 .pad {
     margin-bottom: 10rem;
 }
+
+#poklopac {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #242424;
+    transition: all 0.5s ease-in;
+    z-index: 5;
+}
+
+#poklopac figure {
+    width: 100%;
+    margin: 0px;
+}
+
+header {
+    max-width: 60px;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 2;
+}
+
+#dropdown {
+    z-index: 4;
+
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #242424ab;
+    transition: all 0.3s ease-out;
+    text-align: center;
+    color: white;
+    translate: 0px -110vh;
+}
+
+#dropdown.show {
+    translate: 0px 0px;
+}
+
+#dropdown p {
+    margin: 5px;
+    width: 100%;
+}

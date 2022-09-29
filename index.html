@@ -12,9 +12,28 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet"> 
 </head>
 <body>
-    <header>
-
+    <div id="poklopac">
+        <figure><img src="./photos/logo.png" alt=""></figure>
+    </div>
+    <header onclick="dropdown_toggle(true)">
+        <img src="./photos/kompas.png" alt="">
     </header>
+    <nav id="dropdown" onclick="dropdown_toggle(0)">
+        <p onclick="skrolaj('kafa')">Kafa</p>
+        <p onclick="skrolaj('voda')">Voda</p>
+        <p onclick="skrolaj('cijedeni')">Cijeđeni Sokovi</p>
+        <p onclick="skrolaj('bezalkoholna')">Bezalkoholna Pića</p>
+        <p onclick="skrolaj('bulldog')">Drinks for Start</p>
+        <p onclick="skrolaj('viski')">Whiskey</p>
+        <p onclick="skrolaj('rum')">Rum</p>
+        <p onclick="skrolaj('rakija')">Rakija</p>
+        <p onclick="skrolaj('tekila')">Tequila</p>
+        <p onclick="skrolaj('liker')">Liker</p>
+        <p onclick="skrolaj('konjak')">Cognac</p>
+        <p onclick="skrolaj('casa')">Vino</p>
+        <p onclick="skrolaj('sampanjac')">Šampanjac / Pjenušac</p>
+        <p onclick="skrolaj('ponude')">Specijalne Ponude</p>
+    </nav>
     <main>
         <section id="kafa">
             <h2>Kafa</h2>
@@ -31,7 +50,7 @@
             </div>
         </section>
 
-        <h2 class="ct">Voda</h2>
+        <h2 class="ct" id="voda">Voda</h2>
 
         <section class="container">
             <div class="cijene">
@@ -56,7 +75,7 @@
 
             </div>
         </section>
-            <h2>Bezalkoholna pića</h2>
+            <h2 id="bezalkoholna">Bezalkoholna pića</h2>
         <section class="container">
             <figure>
                 <img src="./photos/cocacola.png" alt="">
@@ -80,7 +99,7 @@
                 <p>Prirodni Negazirani Sokovi 3 KM</p>
             </div>
         </section>
-        <section class="parallax container">
+        <section class="parallax container" id="bulldog">
             <h2>Bulldog G&T with  a black twist<br> 7 KM</h2>
         </section>
         <section class="ct">
@@ -91,7 +110,7 @@
             </div>
         </section>
 
-        <h2 class="ct">Whiskey</h2>
+        <h2 class="ct" id="viski">Whiskey</h2>
         <section class="container">
             <div class="cijene">
                 <p>Naked Malt 6 KM</p>
@@ -107,7 +126,7 @@
             </figure>
         </section>
 
-        <section>
+        <section id="rum">
             <figure>
                 <img src="./photos/rum.png" alt="">
             </figure>
@@ -118,7 +137,7 @@
             </div>
         </section>
 
-        <h2 class="ct">Rakija</h2>
+        <h2 class="ct" id="rakija">Rakija</h2>
         <section class="container">
             <figure>
                 <img src="./photos/rakija.png" alt="">
@@ -138,7 +157,7 @@
             </div>
         </section>
         <section>
-            <h2 class="ct">Tequila</h2>
+            <h2 class="ct" id="tekila">Tequila</h2>
             <figure>
                 <img src="./photos/tekila.png" alt="">
             </figure>
@@ -149,7 +168,7 @@
         </section>
 
 
-        <h2>Liker</h2>
+        <h2 id="liker">Liker</h2>
         <section class="container">
             <div class="cijene">
                 <p>Campari 4 KM</p>
@@ -166,7 +185,7 @@
         </section>
 
 
-        <h2 class="ct">Cognac</h2>
+        <h2 class="ct" id="konjak">Cognac</h2>
         <section class="container">
             <figure>
                 <img src="./photos/konjak.png" alt="">
@@ -225,7 +244,7 @@
         </section>
 
 
-        <h2>Šampanjac / Pjenušac</h2>
+        <h2 id="sampanjac">Šampanjac / Pjenušac</h2>
         <section class="container">
             <div class="cijene">
                 <p>Giocato-Edi Simčić 50 KM</p>
@@ -238,12 +257,12 @@
             </figure>
         </section>
         <section>
-            <h2>Specijalna Ponuda</h2>
+            <h2 id="ponude">Specijalne Ponude</h2>
             <div class="cijene">
-                <p>SKYY vodka 0,7l + 6x Red Bull Energy Dring 90 KM</p>
+                <p>SKYY vodka 0,7l + 6x Red Bull Energy Drink 90 KM</p>
                 <p>Bulldog Gin 0,7l + 4x Schweppes Tonic Water 140 KM</p>
                 <p>Monkey 47  Gin 0,7l + 6x Red Bull Green Edition 170 KM</p>
-                <p>Chivas 12yo Whiskey 0,7l + 4x Cocas-Cola 130 KM</p>
+                <p>Chivas 12yo Whiskey 0,7l + 4x Coca-Cola 130 KM</p>
                 <p>Jack Daniels Whiskey 0,7l + 4x Coca-Cola 120 KM</p>
                 <p>The Botanist + 4x Schweppes Tonic Water 190 KM</p>
 
