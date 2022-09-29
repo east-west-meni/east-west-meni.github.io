@@ -1,0 +1,113 @@
+
+body {
+    margin: 0px;
+    background-image: url("./photos/pozadina.png");
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    height: auto;
+    width: 100%;
+}
+
+figure {
+    margin: 5px;
+}
+
+section {
+    margin-bottom: 10rem;
+}
+
+p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h2 {
+    font-size: 3rem;
+
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#kafa {
+    background-image: url("./photos/kafa.png");
+    background-size: contain;
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+#kafa h2 {
+    margin-top: 0px;
+    padding-top: 40vw;
+    padding-bottom: 5rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.container figure {
+    max-width: 50%;
+}
+
+
+#cijedeni {
+    background-image: url("./photos/limun.png");
+    background-size: contain;
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+#cijedeni h2 {
+    text-align: right;
+    padding-right: 20px;
+}
+
+#cijedeni .cijene {
+    padding-top: 8rem;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("./photos/bulldog.png");
+  
+    /* Set a specific height */
+    min-height: 120vh;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: white;
+    text-align: center;
+    text-shadow:2px 1px 5px black ;
+
+  }
+
+.parallax h2 {
+    max-width: 15rem;
+    font-size: 2rem;
+}
+
+.razmak {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ct {
+    text-align: center;
+}
+
+#casa {
+    margin-bottom: 10px;
+}
+
+.pad {
+    margin-bottom: 10rem;
+}
